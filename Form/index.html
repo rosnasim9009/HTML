@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body background="bg1.jpg">
+
+<!--Form Begins-->
+<form action="submit.html"><br>
+  <!--First Form Container-->
+  <fieldset>
+    <legend>Your Details:</legend>
+    Name:<input type="text" name="name"/><br><br>
+    Email:<input type="email" name="email"/>
+  </fieldset><br><br>
+  <!--Ends-->
+
+  <!--Second Form Container-->
+  <fieldset>
+    <legend>Your Review:</legend><br>   <!--For container heading-->
+    How did you hear about us?<select name="options">
+      <option value="google">Google</option>
+      <option value="facebook">Facebook</option>
+      <option value="friends">Friends</option>
+    </select><br><br>
+
+    Would you visit again?<br>
+    <input type="radio" name="visit" value="yes" checked="checked"/>Yes
+    <input type="radio" name="visit" value="no"/>No
+    <input type="radio" name="visit" value="maybe"/>Maybe<br><br>
+
+    Comments:<br>
+    <textarea name="comments" rows="4" cols="40"></textarea><br><br>
+    <input type="checkbox" name="sign" checked="checked"/> Sign me up for email updates<br>
+    <input type="submit" value="Submit review">
+  </fieldset>
+  <!--Second fieldset ends here-->
+
+  </form>
+  <!--End of form-->
+
+  </body>
+  </html>
