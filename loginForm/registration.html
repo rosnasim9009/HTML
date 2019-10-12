@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Registration</title>
+</head>
+
+<!--CSS Styles-->
+<style>
+  .container
+  {
+    border-radius: 2px;
+    background-color: pink;
+    padding: 5px;
+    width:600px;
+    height:500px;
+  }
+  input[type=submit]
+  {
+    background-color: green;
+    color:white;
+    padding: 8px 42px;
+  }
+</style>
+<!--End of styles-->
+
+<body background="bg1.jpg">
+
+  <!--From Begins-->
+  <form action="index.html" method="post" align="center"><br><br><br><br>
+    <h1 align="center"><u>Registration Form</u></h1><br>
+
+      <!--Form Elements starts here-->
+      First Name: <input type="text" name="fname" required="required" size="30"/><br><br>
+      Last Name:  <input type="text" name="lname" required="required" size="30"/><br><br>
+      Username:   <input type="text" name="uname" required="required" size="30"/><br><br>
+      Password:   <input type="password" name="pwd" required="required" size="30"/><br><br>
+      Email ID:   <input type="email" name="email" required="required" size="30"/><br><br>
+      Mobile No:  <input type="text" name="mob" required="required" size="30"/><br><br>
+      <label>         City:
+        <select name="city" width="300">
+          <option value="select">Select</option>
+          <option value="select">Kochi</option>
+          <option value="select">Kottayam</option>
+
+        </select>
+      </label><br><br>
+      <input type="submit" name="register" value="Register"/>
+      <a href="index.html">Back to Home</a>   <!--A Link to Fome page-->
+      <!--End of Elements-->
+  </form>
+  <!--Form Ends-->
+
+</body>
+</html>
